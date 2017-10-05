@@ -1,6 +1,6 @@
 
 create table if not exists books (
-  id int primary key,
+  id int primary key auto_increment,
   name varchar(255),
   author varchar(255),
   isbn varchar(255),
